@@ -10,13 +10,13 @@ import {
 } from 'lucide-react';
 import { handleAnchorClick, waLink } from '../data';
 
-const footerCatalogLinks = [
-    'Royal Javanese Gold',
-    'Seraphic Minimalist Editorial',
-    'Serenade Botanica Sage',
-    "Al-Barakah Medina Syar'i",
-    'Midnight Grand Monogram',
-    'Custom Domain .COM VIP',
+const footerNavLinks = [
+    { href: '#tentang-kami', label: 'Tentang Kami' },
+    { href: '#crew', label: 'Crew' },
+    { href: '#benefit', label: 'Benefit' },
+    { href: '#portofolio', label: 'Portofolio' },
+    { href: '#testimoni', label: 'Testimoni' },
+    { href: '#faq', label: 'FAQ' },
 ];
 
 export default function SiteFooter() {
@@ -26,9 +26,11 @@ export default function SiteFooter() {
                 <div className="grid grid-cols-1 gap-10 border-b border-white/10 pb-12 md:grid-cols-12">
                     <div className="space-y-4 md:col-span-5">
                         <div className="flex items-center gap-3">
-                            <div className="flex h-10 w-10 items-center justify-center rounded-xl border border-white/20 bg-white/10 font-cond text-lg font-bold text-white">
-                                M
-                            </div>
+                            <img
+                                src="/images/logo/mhs-ayu-logo.png"
+                                alt="Logo MHS Ayu — Maheswari Enterprise"
+                                className="h-10 w-auto rounded-lg"
+                            />
                             <div>
                                 <span className="block font-display text-lg font-bold tracking-wider text-white">
                                     MAHES AYU
@@ -39,12 +41,11 @@ export default function SiteFooter() {
                             </div>
                         </div>
                         <p className="max-w-sm text-xs leading-relaxed text-slate-300">
-                            Atelier inovasi undangan pernikahan digital,
-                            platform RSVP cerdas, dan wedding organizer
-                            berdedikasi tinggi di bawah naungan PT Maheswari
-                            Kreasi Mahakarya. Menghadirkan ketenangan dan
-                            kemewahan sejati dalam setiap helai perayaan sakral
-                            Anda.
+                            Layanan resmi penyambut tamu (pagar ayu) di bawah
+                            naungan Maheswari Enterprise (MHSWR). Kami menjaga
+                            kehormatan acara keluarga Anda dari pintu masuk
+                            hingga tamu terakhir pulang — dengan busana tertata,
+                            protokoler tepat, dan pelayanan hangat.
                         </p>
                         <div className="flex items-center gap-3 pt-2">
                             <a
@@ -62,7 +63,7 @@ export default function SiteFooter() {
                             <a
                                 aria-label="WhatsApp Mahes Ayu"
                                 href={waLink(
-                                    'Halo Mahes Ayu Maheswari, saya ingin konsultasi undangan digital',
+                                    'Halo Mahes Ayu Maheswari, saya ingin konsultasi layanan pagar ayu',
                                 )}
                                 target="_blank"
                                 rel="noopener noreferrer"
@@ -84,19 +85,19 @@ export default function SiteFooter() {
                     </div>
                     <div className="space-y-3 md:col-span-3">
                         <h5 className="font-label text-xs font-bold tracking-wider text-white uppercase">
-                            Katalog & Tema
+                            Jelajahi Halaman
                         </h5>
                         <ul className="space-y-2.5 text-xs">
-                            {footerCatalogLinks.map((item) => (
-                                <li key={item}>
+                            {footerNavLinks.map((link) => (
+                                <li key={link.href}>
                                     <a
-                                        href="#katalog"
+                                        href={link.href}
                                         onClick={(event) =>
-                                            handleAnchorClick(event, '#katalog')
+                                            handleAnchorClick(event, link.href)
                                         }
                                         className="transition hover:text-sky-300"
                                     >
-                                        {item}
+                                        {link.label}
                                     </a>
                                 </li>
                             ))}

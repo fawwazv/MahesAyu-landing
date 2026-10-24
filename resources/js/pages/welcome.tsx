@@ -1,13 +1,14 @@
 import { Head } from '@inertiajs/react';
 import { useScrollDynamics } from '@/hooks/use-scroll-dynamics';
 import { SECTION_IDS } from './welcome/data';
-import CaraPesanSection from './welcome/sections/CaraPesanSection';
+import BenefitSection from './welcome/sections/BenefitSection';
+import CrewSection from './welcome/sections/CrewSection';
+import FaqSection from './welcome/sections/FaqSection';
 import Hero from './welcome/sections/Hero';
-import KatalogSection from './welcome/sections/KatalogSection';
-import PaketSection from './welcome/sections/PaketSection';
-import PesanSection from './welcome/sections/PesanSection';
+import PortofolioSection from './welcome/sections/PortofolioSection';
 import SiteFooter from './welcome/sections/SiteFooter';
 import SiteNav from './welcome/sections/SiteNav';
+import TentangKamiSection from './welcome/sections/TentangKamiSection';
 import TestimoniSection from './welcome/sections/TestimoniSection';
 
 export default function Welcome() {
@@ -17,7 +18,7 @@ export default function Welcome() {
 
     return (
         <>
-            <Head title="MAHES AYU by Maheswari Enterprise | Undangan Pernikahan Digital Eksklusif" />
+            <Head title="MAHES AYU by Maheswari Enterprise | Layanan Pagar Ayu & Wedding Organizer Profesional" />
             <div className="scroll-smooth bg-white font-body text-slate-800 antialiased selection:bg-[#2563EB] selection:text-white">
                 <SiteNav
                     activeSection={activeSection}
@@ -26,11 +27,12 @@ export default function Welcome() {
                     navHidden={navHidden}
                 />
                 <Hero />
-                <KatalogSection />
-                <PaketSection />
-                <CaraPesanSection />
+                <TentangKamiSection />
+                <CrewSection />
+                <BenefitSection />
+                <PortofolioSection />
                 <TestimoniSection />
-                <PesanSection />
+                <FaqSection />
                 <SiteFooter />
             </div>
         </>

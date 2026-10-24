@@ -34,10 +34,14 @@ export default function SiteNav({
                         onClick={(event) =>
                             handleAnchorClick(event, '#beranda')
                         }
-                        className="font-display text-sm font-bold tracking-wider text-[#0A2540]"
+                        className="flex items-center gap-2.5"
                     >
-                        MAHES AYU
-                        <span className="ml-2 hidden font-body text-[10px] font-semibold tracking-widest text-slate-500 sm:inline">
+                        <img
+                            src="/images/logo/mhs-ayu-logo.png"
+                            alt="Logo MHS Ayu — Maheswari Enterprise"
+                            className="h-9 w-auto rounded-md"
+                        />
+                        <span className="hidden font-body text-[10px] font-semibold tracking-widest text-slate-500 sm:inline">
                             BY MAHESWARI ENTERPRISE
                         </span>
                     </a>

@@ -3,8 +3,9 @@ import {
     BadgeCheck,
     Heart,
     Instagram,
-    Music,
+    Shirt,
     ShieldCheck,
+    Users,
 } from 'lucide-react';
 import { HERO_WA_MESSAGE, handleAnchorClick, heroCards, waLink } from '../data';
 
@@ -92,24 +93,11 @@ export default function Hero() {
                             ) : (
                                 <div className="flex items-center justify-between px-1 text-[10px] text-slate-600">
                                     <span className="flex items-center gap-1 font-semibold text-emerald-600">
-                                        {card.footerLeft ===
-                                        'LIVE STREAMING' ? (
-                                            <span className="font-label text-[9px] font-bold text-[#2563EB]">
-                                                LIVE STREAMING
-                                            </span>
-                                        ) : (
-                                            <>
-                                                {card.footerLeft.includes(
-                                                    'RSVP',
-                                                ) && (
-                                                    <BadgeCheck
-                                                        className="h-3 w-3"
-                                                        aria-hidden="true"
-                                                    />
-                                                )}
-                                                {card.footerLeft}
-                                            </>
-                                        )}
+                                        <BadgeCheck
+                                            className="h-3 w-3"
+                                            aria-hidden="true"
+                                        />
+                                        {card.footerLeft}
                                     </span>
                                     {card.footerIcon === 'heart' ? (
                                         <Heart
@@ -121,8 +109,13 @@ export default function Hero() {
                                             className="h-3.5 w-3.5 text-[#2563EB]"
                                             aria-hidden="true"
                                         />
-                                    ) : card.footerIcon === 'music' ? (
-                                        <Music
+                                    ) : card.footerIcon === 'shirt' ? (
+                                        <Shirt
+                                            className="h-3.5 w-3.5 text-[#2563EB]"
+                                            aria-hidden="true"
+                                        />
+                                    ) : card.footerIcon === 'users' ? (
+                                        <Users
                                             className="h-3.5 w-3.5 text-[#2563EB]"
                                             aria-hidden="true"
                                         />
@@ -175,22 +168,21 @@ export default function Hero() {
                             </div>
                         </div>
                         <p className="text-sm leading-relaxed font-normal text-slate-600 md:text-[15px]">
-                            Sistem ekosistem undangan digital & event organizer
-                            pernikahan terintegrasi karya Maheswari Enterprise.
-                            Dipercaya oleh lebih dari 1,800+ pasangan pengantin
-                            dengan sistem RSVP tamu cerdas, QR check-in instan,
-                            audio visual sinematik, dan kepastian momen sakral
-                            bebas rasa cemas.
+                            Tim pagar ayu profesional & wedding organizer
+                            pernikahan karya Maheswari Enterprise. Dipercaya
+                            oleh lebih dari 1,800+ pasangan dengan penyambutan
+                            tamu yang tertata, protokoler tepat, seragam tegap,
+                            dan kepastian momen sakral bebas rasa cemas.
                         </p>
                         <div className="flex flex-wrap items-center gap-3 pt-2">
                             <a
-                                href="#katalog"
+                                href="#portofolio"
                                 onClick={(event) =>
-                                    handleAnchorClick(event, '#katalog')
+                                    handleAnchorClick(event, '#portofolio')
                                 }
                                 className="inline-flex items-center gap-2.5 rounded-full bg-[#2563EB] px-6 py-3.5 text-xs font-bold tracking-wider text-white uppercase shadow-lg shadow-blue-600/25 transition-all duration-300 hover:-translate-y-0.5 hover:bg-[#1d4ed8]"
                             >
-                                <span>LIHAT PAKET 2026</span>
+                                <span>LIHAT PORTOFOLIO</span>
                                 <span className="flex h-6 w-6 items-center justify-center rounded-full bg-white text-[10px] text-[#2563EB]">
                                     <ArrowUpRight
                                         className="h-3.5 w-3.5"
