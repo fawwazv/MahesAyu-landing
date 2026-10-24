@@ -40,7 +40,8 @@ import {
 const SECTION_IDS = ['katalog', 'paket', 'cara-pesan', 'testimoni', 'pesan'];
 
 const WA_NUMBER = '6281901073574';
-const HERO_WA_MESSAGE = 'Halo Mahes Ayu Maheswari, saya ingin konsultasi undangan digital dan wedding organizer';
+const HERO_WA_MESSAGE =
+    'Halo Mahes Ayu Maheswari, saya ingin konsultasi undangan digital dan wedding organizer';
 const waLink = (text: string) =>
     `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(text)}`;
 
