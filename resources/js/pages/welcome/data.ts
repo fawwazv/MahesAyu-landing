@@ -1,13 +1,5 @@
 import type { LucideIcon } from 'lucide-react';
-import {
-    Clock,
-    Heart,
-    ListChecks,
-    MapPin,
-    Shirt,
-    Sparkles,
-    Users,
-} from 'lucide-react';
+import { Clock, Heart, MapPin, Users } from 'lucide-react';
 import type { MouseEvent } from 'react';
 import { smoothScrollToSection } from '@/hooks/use-scroll-dynamics';
 
@@ -82,7 +74,6 @@ export interface CrewMember {
 }
 
 export interface Benefit {
-    icon: LucideIcon;
     title: string;
     description: string;
 }
@@ -269,40 +260,39 @@ const crews: CrewMember[] = [
 
 const benefits: Benefit[] = [
     {
-        icon: Heart,
         title: 'Penyambutan Hangat & Terkoordinasi',
         description:
             'Tim pagar ayu menyambut setiap tamu dengan tata sapa yang ramah dan posisi foto yang tertata rapi, menjaga suasana akad maupun resepsi tetap hening dan bermartabat.',
     },
     {
-        icon: Sparkles,
         title: 'Meningkatkan Estetika Acara',
         description:
             'Busana adat semi-formal yang serasi dengan tema pernikahan membuat momen sambut tamu dan foto keluarga besar tampak jauh lebih berkelas.',
     },
     {
-        icon: Users,
         title: 'Alur Tamu Lebih Rapi',
         description:
             'Petugas greeter memandu arus kedatangan agar tamu tidak menumpuk di pintu, dijalankan sepenuhnya sesuai run-down acara yang telah disepakati bersama.',
     },
     {
-        icon: Shirt,
         title: 'Seragam Tegap Sepanjang Acara',
         description:
             'Seluruh crew tampil seragam, rapi, dan siap sedia selama shift acara berlangsung, termasuk saat ikut berfoto bersama keluarga inti.',
     },
     {
-        icon: ListChecks,
         title: 'Beban Panitia Berkurang',
         description:
             'Koordinasi pos, jadwal shift, dan penempatan lokasi kami petakan sendiri — keluarga cukup fokus menikmati hari bahagia tanpa drama dadakan.',
     },
     {
-        icon: Clock,
         title: 'Tepat Jadwal Hingga Tamu Terakhir',
         description:
             'Crew hadir 30 menit sebelum pembukaan dan bertahan hingga tamu terakhir terurus, sepenuhnya mengikuti run-down yang Anda susun.',
+    },
+    {
+        title: 'Zero Blunder Protocol — Garansi Ketepatan',
+        description:
+            'Detail brief, jadwal shift, dan penempatan pos kami cek berlapis. Jika ada personel yang tidak sesuai standar, penggantian dilakukan tanpa biaya tambahan hingga acara selesai.',
     },
 ];
 
