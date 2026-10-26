@@ -69,8 +69,15 @@ export interface CrewMember {
     image: string;
     alt: string;
     name: string;
+    schedule: string;
     role: string;
+    specialty: string;
     badge?: string;
+}
+
+export interface TeamPhoto {
+    image: string;
+    alt: string;
 }
 
 export interface Benefit {
@@ -105,6 +112,7 @@ export {
     navLinks,
     testimonials,
     about,
+    teamPhotos,
     crews,
     benefits,
     portfolios,
@@ -218,43 +226,57 @@ const about: AboutContent = {
         'Tim pagar ayu Mahes Ayu menyambut keluarga besar mempelai adat Jawa',
 };
 
-const crews: CrewMember[] = [
+const teamPhotos: TeamPhoto[] = [
     {
         image: '/images/stitch/hero-crew.jpg',
-        alt: 'Tim inti Maheswari Wedding Organizer',
-        name: 'Tim Inti MHSWR',
-        role: 'Lead Captain & Koordinator',
-        badge: 'TIM INTI',
+        alt: 'Tim pagar ayu dan wedding organizer Mahes Ayu',
     },
+    {
+        image: '/images/stitch/katalog-editorial.jpg',
+        alt: 'Registrasi dan koordinasi tim Mahes Ayu di lokasi acara',
+    },
+];
+
+const crews: CrewMember[] = [
     {
         image: '/images/stitch/hero-editorial.jpg',
         alt: 'Greeter Mahes Ayu resepsi modern editorial',
         name: 'Ayu Lestari',
+        schedule: 'Sen, Rab, Jum',
         role: 'Greeter Utama',
+        specialty: 'Greeter editorial & protokoler sambutan',
     },
     {
         image: '/images/stitch/hero-sunda.jpg',
         alt: 'Crew Mahes Ayu pernikahan tradisional Sunda',
         name: 'Sari Wulandari',
+        schedule: 'Sel, Kam',
         role: 'Flow Guide Tamu',
+        specialty: 'Alur tamu & koordinasi run-down',
     },
     {
         image: '/images/stitch/hero-akad.jpg',
         alt: 'Crew Mahes Ayu akad nikah intim',
         name: 'Dimas Pratama',
+        schedule: 'Rab, Sab',
         role: 'Registrar Buku Tamu',
+        specialty: 'Registrasi buku tamu & VIP',
     },
     {
         image: '/images/stitch/hero-jawa.jpg',
         alt: 'Usher VIP Mahes Ayu resepsi adat Jawa',
         name: 'Nadia Safitri',
+        schedule: 'Sen, Rab, Sab',
         role: 'Usher VIP Keluarga',
+        specialty: 'Pendamping keluarga inti & pos VIP',
     },
     {
         image: '/images/stitch/katalog-botanica.jpg',
         alt: 'Crew Mahes Ayu garden party resepsi',
         name: 'Raka Aditya',
+        schedule: 'Sel, Sab, Ming',
         role: 'Pos Foto & Estetika',
+        specialty: 'Penataan pos foto & estetika panggung',
     },
 ];
 
