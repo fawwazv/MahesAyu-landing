@@ -207,6 +207,16 @@
         transform: scale(1.08);
     }
 }
+@keyframes faq-reveal {
+    from {
+        opacity: 0;
+        transform: translateY(-6px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 
 .animate-float-1 {
     animation: stitch-float-1 7s ease-in-out infinite;

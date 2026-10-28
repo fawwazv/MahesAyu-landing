@@ -365,17 +365,24 @@ const faqs: FaqItem[] = [
         answer: 'Standar 1 shift penuh (hingga 6 jam) mengikuti run-down acara Anda. Kebutuhan lebih lama, shift ganda, atau kombinasi shift pagi dan siang dapat diatur saat konsultasi.',
     },
     {
-        question:
-            'Apakah bisa untuk acara adat tertentu (Jawa, Sunda, Minang, dan lainnya)?',
-        answer: 'Bisa. Kami menyiapkan tata sapa dan gestur yang sesuai dengan adat masing-masing, termasuk protokol khusus untuk panggih, siraman, maupun seserahan.',
+        question: 'Apakah bisa untuk acara adat tertentu?',
+        answer: 'Bisa. Jawa, Sunda, Minang, dan adat lainnya kami sambut dengan tata sapa dan gestur yang sesuai, termasuk protokol khusus untuk panggih, siraman, maupun seserahan.',
     },
     {
         question: 'Berapa jumlah personel minimal yang direkomendasikan?',
         answer: 'Untuk resepsi hingga 500 tamu kami merekomendasikan 4-6 personel. Untuk gedung berkapasitas besar atau dua pintu masuk, 8-10 personel lebih ideal.',
     },
     {
-        question: 'Apakah layanan tersedia di luar Jakarta dan Bogor?',
-        answer: 'Tersedia untuk seluruh area Jabodetabek tanpa biaya tambahan. Di luar Jabodetabek dikenakan biaya transportasi dan akomodasi yang disepakati saat konsultasi.',
+        question: 'Apakah layanan tersedia di luar kota-kota utama?',
+        answer: 'Area utama kami mencakup Majalengka, Kuningan, Cirebon, dan Sumedang tanpa biaya tambahan. Di luar area tersebut dikenakan biaya transportasi dan akomodasi yang disepakati saat konsultasi.',
+    },
+    {
+        question: 'Bagaimana kebijakan pembatalan atau reschedule?',
+        answer: 'Reschedule dapat dilakukan 1 kali tanpa biaya tambahan selama dikonfirmasi minimal 7 hari sebelum hari-H. DP yang sudah dibayarkan otomatis dialihkan ke jadwal baru Anda.',
+    },
+    {
+        question: 'Apakah ada paket bundling pagar ayu dan wedding organizer?',
+        answer: 'Ada. Paket gabungan pagar ayu dan wedding organizer memakai satu koordinator tunggal, satu run-down terpadu, dan harga gabungan yang lebih hemat dari pesanan terpisah.',
     },
 ];
 
