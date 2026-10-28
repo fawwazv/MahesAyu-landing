@@ -36,11 +36,19 @@ export default function SiteNav({
                         }
                         className="flex items-center gap-2.5"
                     >
-                        <img
-                            src="/images/logo/mhs-ayu-logo.png"
-                            alt="Logo MHS Ayu — Maheswari Enterprise"
-                            className="h-9 w-auto rounded-md"
-                        />
+                        <span className="flex items-center gap-1.5">
+                            <img
+                                src="/images/logo/mhs-ayu-crest.png"
+                                alt="Logo MHS Ayu — Maheswari Enterprise"
+                                className="h-9 w-auto"
+                            />
+                            <img
+                                src="/images/logo/mhs-ayu-wordmark.png"
+                                alt=""
+                                aria-hidden="true"
+                                className="h-9 w-auto"
+                            />
+                        </span>
                         <span className="hidden font-body text-[10px] font-semibold tracking-widest text-slate-500 sm:inline">
                             BY MAHESWARI ENTERPRISE
                         </span>

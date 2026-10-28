@@ -26,11 +26,19 @@ export default function SiteFooter() {
                 <div className="grid grid-cols-1 gap-10 border-b border-white/10 pb-12 md:grid-cols-12">
                     <div className="space-y-4 md:col-span-5">
                         <div className="flex items-center gap-3">
-                            <img
-                                src="/images/logo/mhs-ayu-logo.png"
-                                alt="Logo MHS Ayu — Maheswari Enterprise"
-                                className="h-10 w-auto rounded-lg"
-                            />
+                            <span className="flex items-center gap-1.5">
+                                <img
+                                    src="/images/logo/mhs-ayu-crest.png"
+                                    alt="Logo MHS Ayu — Maheswari Enterprise"
+                                    className="h-10 w-auto"
+                                />
+                                <img
+                                    src="/images/logo/mhs-ayu-wordmark.png"
+                                    alt=""
+                                    aria-hidden="true"
+                                    className="h-10 w-auto"
+                                />
+                            </span>
                             <div>
                                 <span className="block font-display text-lg font-bold tracking-wider text-white">
                                     MAHES AYU
