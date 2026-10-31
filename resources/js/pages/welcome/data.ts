@@ -31,20 +31,6 @@ export function handleAnchorClick(
     smoothScrollToSection(href.slice(1));
 }
 
-export interface HeroCard {
-    animation: string;
-    badge: string;
-    badgeClass: string;
-    image: string;
-    alt: string;
-    couple: string;
-    venue: string;
-    footerLeft: string;
-    footerIcon: 'heart' | 'shield' | 'shirt' | 'users';
-    offset: string;
-    featured?: boolean;
-}
-
 export interface NavLink {
     href: string;
     label: string;
@@ -108,7 +94,6 @@ export {
     WA_NUMBER,
     HERO_WA_MESSAGE,
     waLink,
-    heroCards,
     navLinks,
     testimonials,
     about,
@@ -119,70 +104,6 @@ export {
     faqs,
     stats,
 };
-
-const heroCards: HeroCard[] = [
-    {
-        animation: 'animate-float-1',
-        badge: 'PAGAR AYU ADAT',
-        badgeClass: 'bg-[#0A2540]/90 text-white border-white/20',
-        image: '/images/stitch/hero-jawa.jpg',
-        alt: 'Pernikahan Adat Jawa Mahes Ayu',
-        couple: 'Raden & Dyah Ayu',
-        venue: 'Gedung Sasana Kriya',
-        footerLeft: 'PENYAMPAI TATA KRAMA',
-        footerIcon: 'shield',
-        offset: '',
-    },
-    {
-        animation: 'animate-float-2',
-        badge: 'GREETER KELAS EDITORIAL',
-        badgeClass: 'bg-blue-600/90 text-white border-white/20',
-        image: '/images/stitch/hero-editorial.jpg',
-        alt: 'Resepsi Modern Editorial MHSWR',
-        couple: 'Vito & Gabriella',
-        venue: 'The Glass House Bunga',
-        footerLeft: 'FLOW GUIDE TAMU',
-        footerIcon: 'users',
-        offset: '-mt-4 lg:-mt-8',
-    },
-    {
-        animation: 'animate-float-3',
-        badge: 'PROTOKOLER VIP',
-        badgeClass: 'bg-[#2563EB] text-white',
-        image: '/images/stitch/hero-akad.jpg',
-        alt: 'Akad Nikah Suci Maheswari',
-        couple: 'Sacred Vow & Intimate Ballroom',
-        venue: 'Hotel Mulia Senayan',
-        footerLeft: 'SERAGAM TEGAP & SINKRON',
-        footerIcon: 'shirt',
-        offset: '',
-        featured: true,
-    },
-    {
-        animation: 'animate-float-4',
-        badge: 'BUSANA SEMI-FORMAL',
-        badgeClass: 'bg-[#0A2540]/90 text-white border-white/20',
-        image: '/images/stitch/hero-sunda.jpg',
-        alt: 'Pernikahan Adat Sunda Elegan',
-        couple: 'Dimas & Anindita',
-        venue: 'Puri Begawan Bogor',
-        footerLeft: 'TATA KRAMA SUNDA',
-        footerIcon: 'heart',
-        offset: '-mt-4 lg:-mt-8',
-    },
-    {
-        animation: 'animate-float-1',
-        badge: 'MHSWR CREW',
-        badgeClass: 'bg-[#0A2540]/90 text-white border-white/20',
-        image: '/images/stitch/hero-crew.jpg',
-        alt: 'Maheswari Wedding Organizer Crew',
-        couple: 'MHSWR Certified Team',
-        venue: 'Zero Blunder Protocol',
-        footerLeft: 'On Time Guaranteed',
-        footerIcon: 'shield',
-        offset: 'hidden sm:block',
-    },
-];
 
 const navLinks: NavLink[] = [
     { href: '#beranda', label: 'Beranda' },

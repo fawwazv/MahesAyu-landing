@@ -160,42 +160,6 @@
 }
 
 /* === MAHES AYU Stitch theme (Welcome landing) === */
-@keyframes stitch-float-1 {
-    0%,
-    100% {
-        transform: translateY(0) rotate(-3deg) scale(1);
-    }
-    50% {
-        transform: translateY(-16px) rotate(-1deg) scale(1.02);
-    }
-}
-@keyframes stitch-float-2 {
-    0%,
-    100% {
-        transform: translateY(0) rotate(4deg) scale(1);
-    }
-    50% {
-        transform: translateY(-22px) rotate(2deg) scale(1.03);
-    }
-}
-@keyframes stitch-float-3 {
-    0%,
-    100% {
-        transform: translateY(-8px) rotate(-1.5deg) scale(1);
-    }
-    50% {
-        transform: translateY(12px) rotate(-4deg) scale(0.98);
-    }
-}
-@keyframes stitch-float-4 {
-    0%,
-    100% {
-        transform: translateY(0) rotate(2deg) scale(1.02);
-    }
-    50% {
-        transform: translateY(-18px) rotate(5deg) scale(1);
-    }
-}
 @keyframes stitch-glow {
     0%,
     100% {
@@ -218,18 +182,6 @@
     }
 }
 
-.animate-float-1 {
-    animation: stitch-float-1 7s ease-in-out infinite;
-}
-.animate-float-2 {
-    animation: stitch-float-2 8.5s ease-in-out infinite 0.8s;
-}
-.animate-float-3 {
-    animation: stitch-float-3 6.5s ease-in-out infinite 1.5s;
-}
-.animate-float-4 {
-    animation: stitch-float-4 9s ease-in-out infinite 0.3s;
-}
 .animate-glow {
     animation: stitch-glow 10s ease-in-out infinite alternate;
 }
@@ -332,11 +284,6 @@
     box-shadow:
         0 20px 40px -15px rgba(10, 37, 64, 0.08),
         0 0 20px rgba(37, 99, 235, 0.04);
-}
-.hero-card-shadow {
-    box-shadow:
-        0 20px 35px -10px rgba(15, 23, 42, 0.12),
-        0 4px 10px -2px rgba(15, 23, 42, 0.05);
 }
 
 /* === Scroll dynamics (Reveal on scroll + parallax) === */
