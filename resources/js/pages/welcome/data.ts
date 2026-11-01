@@ -56,8 +56,6 @@ export interface CrewMember {
     alt: string;
     name: string;
     schedule: string;
-    role: string;
-    specialty: string;
     badge?: string;
 }
 
@@ -142,62 +140,52 @@ const about: AboutContent = {
         'Mahes Ayu adalah penyedia layanan pagar ayu profesional di bawah naungan Maheswari Enterprise (MHSWR). Kami menghadirkan tim penyambut tamu yang terlatih, tertata, dan indah budi — menjaga kehormatan acara keluarga Anda dari pintu masuk hingga tamu terakhir pulang.',
         'Nama Mahes Ayu kami ambil dari filosofi keelokan yang merendah: keanggunan busana, tata krama nusantara, dan kerelaan melayani bertemu dalam satu pelayanan. Setiap personel kami melalui pelatihan protokoler penyambutan, penataan pos foto, serta penanganan tamu VIP dan tamu istimewa.',
     ],
-    image: '/images/stitch/hero-jawa.jpg',
+    image: '/images/tentang-kami/about.jpg',
     imageAlt:
-        'Tim pagar ayu Mahes Ayu menyambut keluarga besar mempelai adat Jawa',
+        'Tim pagar ayu Mahes Ayu berseragam kuning emas di hadapan Candi Prambanan',
 };
 
 const teamPhotos: TeamPhoto[] = [
     {
-        image: '/images/stitch/hero-crew.jpg',
+        image: '/images/crew/tim-1.jpg',
         alt: 'Tim pagar ayu dan wedding organizer Mahes Ayu',
     },
     {
-        image: '/images/stitch/katalog-editorial.jpg',
+        image: '/images/crew/tim-2.jpg',
         alt: 'Registrasi dan koordinasi tim Mahes Ayu di lokasi acara',
     },
 ];
 
 const crews: CrewMember[] = [
     {
-        image: '/images/stitch/hero-editorial.jpg',
-        alt: 'Greeter Mahes Ayu resepsi modern editorial',
-        name: 'Ayu Lestari',
-        schedule: 'Sen, Rab, Jum',
-        role: 'Greeter Utama',
-        specialty: 'Greeter editorial & protokoler sambutan',
+        image: '/images/crew/personel-1.jpg',
+        alt: 'Foto Rifa Nurfalah, personel Mahes Ayu',
+        name: 'Rifa Nurfalah, S.Kom.',
+        schedule: "Jum'at - Selasa",
     },
     {
-        image: '/images/stitch/hero-sunda.jpg',
-        alt: 'Crew Mahes Ayu pernikahan tradisional Sunda',
-        name: 'Sari Wulandari',
-        schedule: 'Sel, Kam',
-        role: 'Flow Guide Tamu',
-        specialty: 'Alur tamu & koordinasi run-down',
+        image: '/images/crew/personel-2.jpg',
+        alt: 'Foto Dedi Wardul Qoryah, personel Mahes Ayu',
+        name: 'Dedi Wardul Qoryah, S.P.',
+        schedule: "Senin - Jum'at",
     },
     {
-        image: '/images/stitch/hero-akad.jpg',
-        alt: 'Crew Mahes Ayu akad nikah intim',
-        name: 'Dimas Pratama',
-        schedule: 'Rab, Sab',
-        role: 'Registrar Buku Tamu',
-        specialty: 'Registrasi buku tamu & VIP',
+        image: '/images/crew/personel-3.jpg',
+        alt: 'Foto Agung Tamrin, personel Mahes Ayu',
+        name: 'Agung Tamrin, S.Ap.',
+        schedule: 'Rabu - Sabtu',
     },
     {
-        image: '/images/stitch/hero-jawa.jpg',
-        alt: 'Usher VIP Mahes Ayu resepsi adat Jawa',
-        name: 'Nadia Safitri',
-        schedule: 'Sen, Rab, Sab',
-        role: 'Usher VIP Keluarga',
-        specialty: 'Pendamping keluarga inti & pos VIP',
+        image: '/images/crew/personel-4.jpg',
+        alt: 'Foto Arki Aji Pangestu, personel Mahes Ayu',
+        name: 'Arki Aji Pangestu, S.T., M.T.',
+        schedule: 'Senin, Rabu & Jumat',
     },
     {
-        image: '/images/stitch/katalog-botanica.jpg',
-        alt: 'Crew Mahes Ayu garden party resepsi',
-        name: 'Raka Aditya',
-        schedule: 'Sel, Sab, Ming',
-        role: 'Pos Foto & Estetika',
-        specialty: 'Penataan pos foto & estetika panggung',
+        image: '/images/crew/personel-5.jpg',
+        alt: 'Foto Didit Hardiyanto, personel Mahes Ayu',
+        name: 'Didit Hardiyanto, S.Pd.',
+        schedule: 'Selasa-Minggu',
     },
 ];
 
@@ -241,32 +229,32 @@ const benefits: Benefit[] = [
 
 const portfolios: PortfolioItem[] = [
     {
-        image: '/images/stitch/hero-jawa.jpg',
+        image: '/images/portofolio/galeri-1.jpg',
         alt: 'Portofolio resepsi adat Jawa Mahes Ayu',
         caption: 'Resepsi Adat Jawa — Gedung Sasana Kriya, Jakarta',
     },
     {
-        image: '/images/stitch/hero-editorial.jpg',
+        image: '/images/portofolio/galeri-2.jpg',
         alt: 'Portofolio resepsi modern editorial Mahes Ayu',
         caption: 'Resepsi Modern Editorial — The Glass House, Jakarta',
     },
     {
-        image: '/images/stitch/hero-akad.jpg',
+        image: '/images/portofolio/galeri-3.jpg',
         alt: 'Portofolio akad nikah intim Mahes Ayu',
         caption: 'Akad Intim Ballroom — Hotel Mulia Senayan, Jakarta',
     },
     {
-        image: '/images/stitch/hero-sunda.jpg',
+        image: '/images/portofolio/galeri-4.jpg',
         alt: 'Portofolio pernikahan adat Sunda Mahes Ayu',
         caption: 'Pernikahan Adat Sunda — Puri Begawan, Bogor',
     },
     {
-        image: '/images/stitch/katalog-botanica.jpg',
+        image: '/images/portofolio/galeri-5.jpg',
         alt: 'Portofolio garden party Mahes Ayu',
         caption: 'Garden Party Intimate — Boutique Chapel, Bogor',
     },
     {
-        image: '/images/stitch/hero-crew.jpg',
+        image: '/images/portofolio/galeri-6.jpg',
         alt: 'Portofolio tim Mahes Ayu di lokasi resepsi',
         caption: 'Tim Teregistrasi MHSWR — On Time Guaranteed',
     },

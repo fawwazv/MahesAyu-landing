@@ -12,7 +12,7 @@ export default function Hero() {
                 className="pointer-events-none absolute inset-0 overflow-hidden"
             >
                 <img
-                    src="/images/hero-bg.jpg"
+                    src="/images/beranda/hero-bg.jpg"
                     alt="Tim pagar ayu Mahes Ayu menemani pasangan pengantin adat Jawa di lokasi outdoor sawah"
                     className="h-full w-full scale-110 object-cover object-[50%_65%]"
                     fetchPriority="high"

@@ -34,7 +34,7 @@
         <link rel="icon" href="/favicon.svg" type="image/svg+xml">
         <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
-        <link rel="preload" as="image" href="/images/hero-bg.jpg" fetchpriority="high">
+        <link rel="preload" as="image" href="/images/beranda/hero-bg.jpg" fetchpriority="high">
 
         @fonts
 

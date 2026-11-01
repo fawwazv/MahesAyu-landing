@@ -43,7 +43,7 @@ export default function CrewSection() {
                                 <img
                                     src={teamPhotos[1].image}
                                     alt={teamPhotos[1].alt}
-                                    className="absolute inset-0 h-full w-full origin-top scale-105 object-cover object-top"
+                                    className="absolute inset-0 h-full w-full object-cover"
                                     loading="lazy"
                                 />
                             </div>
@@ -77,12 +77,6 @@ export default function CrewSection() {
                                 </h3>
                                 <p className="mt-1 text-xs text-slate-500">
                                     {crew.schedule}
-                                </p>
-                                <p className="mt-3 font-label text-[11px] font-bold tracking-wider text-[#2563EB] uppercase">
-                                    {crew.role}
-                                </p>
-                                <p className="mt-1 text-xs text-slate-600 italic">
-                                    Spesialisasi: {crew.specialty}
                                 </p>
                             </div>
                         </article>
