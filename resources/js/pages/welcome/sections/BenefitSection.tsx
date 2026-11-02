@@ -51,7 +51,7 @@ export default function BenefitSection() {
                                 Keunggulan Memilih Layanan Kami
                             </h2>
                             <p className="mt-6 max-w-md text-sm leading-relaxed text-slate-600 md:text-base">
-                                Lebih dari sekadar hiasan panggung — tim kami
+                                Lebih dari sekadar hiasan panggung. Tim kami
                                 adalah investasi rapi untuk kekhidmatan hari
                                 paling penting Anda. Saat halaman digulir ke
                                 bawah, setiap kelebihan Mahes Ayu akan terungkap

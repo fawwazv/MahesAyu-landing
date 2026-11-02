@@ -21,7 +21,7 @@ export default function CrewSection() {
                     </div>
                     <p className="max-w-md text-sm text-slate-600 md:text-base">
                         Setiap personel Mahes Ayu terlatih dalam protokoler
-                        penyambutan dan tampil seragam — rapi, ramah, dan siap
+                        penyambutan dan tampil seragam, rapi, ramah, dan siap
                         menjaga kekhidmatan acara keluarga Anda.
                     </p>
                 </div>

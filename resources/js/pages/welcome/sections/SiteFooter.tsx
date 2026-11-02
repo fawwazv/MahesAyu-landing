@@ -1,5 +1,4 @@
 import {
-    Building2,
     Clock,
     Instagram,
     Mail,
@@ -52,7 +51,7 @@ export default function SiteFooter() {
                             Layanan resmi penyambut tamu (pagar ayu) di bawah
                             naungan Maheswari Enterprise (MHSWR). Kami menjaga
                             kehormatan acara keluarga Anda dari pintu masuk
-                            hingga tamu terakhir pulang — dengan busana tertata,
+                            hingga tamu terakhir pulang, dengan busana tertata,
                             protokoler tepat, dan pelayanan hangat.
                         </p>
                         <div className="flex items-center gap-3 pt-2">
@@ -121,17 +120,8 @@ export default function SiteFooter() {
                                     className="mr-2 inline h-3.5 w-3.5 text-sky-400"
                                     aria-hidden="true"
                                 />
-                                <strong>Atelier Jakarta:</strong> Menara
-                                Kuningan Lt. 15, Jl. H.R. Rasuna Said, Jakarta
-                                Selatan
-                            </p>
-                            <p>
-                                <Building2
-                                    className="mr-2 inline h-3.5 w-3.5 text-sky-400"
-                                    aria-hidden="true"
-                                />
-                                <strong>Atelier Jawa Barat:</strong> Pajajaran
-                                Park Residence, Kota Bogor
+                                <strong>Atelier Majalengka:</strong>
+                                Majalengka, Jawa Barat
                             </p>
                             <p>
                                 <Phone
@@ -166,7 +156,7 @@ export default function SiteFooter() {
                             SSL 256-Bit Encrypted
                         </span>
                         <span>•</span>
-                        <span>Bogor & Jakarta, Indonesia</span>
+                        <span>Majalengka, Jawa Barat, Indonesia</span>
                     </div>
                 </div>
             </div>

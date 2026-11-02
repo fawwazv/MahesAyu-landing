@@ -68,11 +68,6 @@ export default function SiteNav({
                                 className="h-9 w-auto"
                             />
                         </span>
-                        <span
-                            className={`hidden font-body text-[10px] font-semibold tracking-widest sm:inline ${onHero ? 'text-white/70' : 'text-slate-500'}`}
-                        >
-                            BY MAHESWARI ENTERPRISE
-                        </span>
                     </a>
                     <nav className="hidden items-center gap-1 text-xs font-semibold md:flex">
                         {navLinks.map((link) => (

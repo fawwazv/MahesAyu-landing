@@ -26,15 +26,15 @@ export default function Hero() {
                 <div className="grid grid-cols-1 items-end gap-8 pb-8 lg:grid-cols-12">
                     <div data-reveal className="text-left lg:col-span-7">
                         <div className="mb-2 flex items-center gap-2 font-label text-xs tracking-widest text-white/70 uppercase md:text-sm">
-                            <span>JAKARTA & JAWA BARAT</span>
+                            <span>MAJALENGKA & JAWA BARAT</span>
                             <span className="inline-block h-1.5 w-1.5 rounded-full bg-[#2563EB]" />
-                            <span>6.2088° S, 106.8456° E</span>
+                            <span>6.7862° S, 108.2333° E</span>
                         </div>
                         <div className="mb-3 flex items-center gap-2 text-[11px] font-bold tracking-wider text-blue-300 uppercase md:text-xs">
                             <span>MAHESWARI ENTERPRISE</span>
                             <span>•</span>
                             <span className="text-white/60">
-                                JAGONYA WEDDING SEJAK 2018
+                                JAGONYA WEDDING SEJAK 2019
                             </span>
                         </div>
                         <h1 className="text-3xl leading-[1.08] font-bold tracking-tight text-white sm:text-5xl lg:text-[3.5rem]">
@@ -50,19 +50,19 @@ export default function Hero() {
                         <div className="mb-1 flex justify-start lg:justify-end">
                             <div className="text-left lg:text-right">
                                 <span className="font-label text-sm font-bold tracking-wider text-blue-300">
-                                    1,800+ PASANGAN BERBAHAGIA
+                                    100+ PASANGAN BERBAHAGIA
                                 </span>
                                 <p className="text-[11px] text-white/60">
-                                    Tersebar di Jabodetabek & Nusantara
+                                    Tersebar di Jawa Barat & Nusantara
                                 </p>
                             </div>
                         </div>
                         <p className="text-sm leading-relaxed font-normal text-white/80 md:text-[15px]">
                             Tim pagar ayu profesional & wedding organizer
                             pernikahan karya Maheswari Enterprise. Dipercaya
-                            oleh lebih dari 1,800+ pasangan dengan penyambutan
-                            tamu yang tertata, protokoler tepat, seragam tegap,
-                            dan kepastian momen sakral bebas rasa cemas.
+                            oleh 100+ pasangan dengan penyambutan tamu yang
+                            tertata, protokoler tepat, seragam tegap, dan
+                            kepastian momen sakral bebas rasa cemas.
                         </p>
                         <div className="flex flex-wrap items-center gap-3 pt-2">
                             <a

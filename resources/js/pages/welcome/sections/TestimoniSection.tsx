@@ -29,7 +29,7 @@ export default function TestimoniSection() {
                             />
                         ))}
                         <span className="ml-2 font-label text-sm font-bold text-[#0A2540]">
-                            5.0 / 5.0 (1,800+ Pasangan)
+                            5.0 / 5.0 (100+ Pasangan)
                         </span>
                     </div>
                 </div>

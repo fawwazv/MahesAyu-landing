@@ -69,8 +69,8 @@ export default function PortofolioSection() {
                     </div>
                     <p className="max-w-md text-sm text-slate-600 md:text-base">
                         Potret berbagai momen pernikahan yang telah kami sambut
-                        dan jaga — dari akad intim hingga resepsi keluarga besar
-                        di seluruh Jabodetabek.
+                        dan jaga, dari akad intim hingga resepsi keluarga besar
+                        di seluruh Jawa Barat.
                     </p>
                 </div>
                 <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -99,15 +99,6 @@ export default function PortofolioSection() {
                                 className="aspect-[4/3] w-full object-cover transition duration-700 group-hover:scale-105"
                                 loading="lazy"
                             />
-                            <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent opacity-80 transition duration-500 group-hover:opacity-100" />
-                            <figcaption className="absolute bottom-0 left-0 w-full p-5">
-                                <p className="font-cond text-sm font-bold text-white sm:text-base">
-                                    {portfolio.caption}
-                                </p>
-                                <p className="font-label text-[10px] font-bold tracking-widest text-sky-300 uppercase">
-                                    MHSWR PROTECTED EVENT
-                                </p>
-                            </figcaption>
                         </figure>
                     ))}
                 </div>

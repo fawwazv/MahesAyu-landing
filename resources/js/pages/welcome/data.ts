@@ -72,7 +72,6 @@ export interface Benefit {
 export interface PortfolioItem {
     image: string;
     alt: string;
-    caption: string;
 }
 
 export interface FaqItem {
@@ -117,19 +116,19 @@ const testimonials: Testimonial[] = [
         initials: 'DA',
         quote: '"Bener-bener gak salah pilih Mahes Ayu & MHSWR! Desain adat Jawanya mewah banget, gak norak. Musik gendingnya pas dibuka langsung bikin merinding khidmat. Pas disebar ke keluarga besar di Solo & Jakarta pada muji karena praktis langsung nyambung Maps!"',
         name: 'dr. Dimas & Anindya, S.Ked',
-        venue: 'Resepsi di Sasana Modern Tangerang',
+        venue: 'Resepsi di Pendopo Agung Majalengka',
     },
     {
         initials: 'RN',
         quote: '"Fitur QR Code check-in di Paket Diamond nolong banget pas hari H! Resepsi 1,200 undangan gak pake antre berjubel di meja registrasi. Laporan tamu yang hadir langsung tercatat rapi. Admin MHSWR juga responsif parah pas ada revisi jam akad dadakan!"',
         name: 'Briptu D. Adji & Brigpol Nola',
-        venue: 'Balai Kartini Exhibition Hall Jakarta',
+        venue: 'Resepsi di Balai Diklat Cirebon',
     },
     {
         initials: 'FR',
         quote: '"Template Minimalist Editorial nya bener-bener kayak majalah luar negeri! Tampilannya estetik, foto prewed kami kelihatan jernih tanpa pecah. Amplop digital QRIS nya juga lancar banget buat teman-teman kantor yang berhalangan hadir."',
         name: 'Ferdian, S.T. & Rachel, M.B.A',
-        venue: 'Plataran Dharmawangsa Jakarta',
+        venue: 'Resepsi di Pendopo Kabupaten Kuningan',
     },
 ];
 
@@ -137,7 +136,7 @@ const about: AboutContent = {
     eyebrow: 'COMPANY PROFILE',
     heading: 'Tentang Kami',
     paragraphs: [
-        'Mahes Ayu adalah penyedia layanan pagar ayu profesional di bawah naungan Maheswari Enterprise (MHSWR). Kami menghadirkan tim penyambut tamu yang terlatih, tertata, dan indah budi — menjaga kehormatan acara keluarga Anda dari pintu masuk hingga tamu terakhir pulang.',
+        'Mahes Ayu adalah penyedia layanan pagar ayu profesional di bawah naungan Maheswari Enterprise (MHSWR). Kami menghadirkan tim penyambut tamu yang terlatih, tertata, dan indah budi, menjaga kehormatan acara keluarga Anda dari pintu masuk hingga tamu terakhir pulang.',
         'Nama Mahes Ayu kami ambil dari filosofi keelokan yang merendah: keanggunan busana, tata krama nusantara, dan kerelaan melayani bertemu dalam satu pelayanan. Setiap personel kami melalui pelatihan protokoler penyambutan, penataan pos foto, serta penanganan tamu VIP dan tamu istimewa.',
     ],
     image: '/images/tentang-kami/about.jpg',
@@ -213,7 +212,7 @@ const benefits: Benefit[] = [
     {
         title: 'Beban Panitia Berkurang',
         description:
-            'Koordinasi pos, jadwal shift, dan penempatan lokasi kami petakan sendiri — keluarga cukup fokus menikmati hari bahagia tanpa drama dadakan.',
+            'Koordinasi pos, jadwal shift, dan penempatan lokasi kami petakan sendiri. Keluarga cukup fokus menikmati hari bahagia tanpa drama dadakan.',
     },
     {
         title: 'Tepat Jadwal Hingga Tamu Terakhir',
@@ -221,7 +220,7 @@ const benefits: Benefit[] = [
             'Crew hadir 30 menit sebelum pembukaan dan bertahan hingga tamu terakhir terurus, sepenuhnya mengikuti run-down yang Anda susun.',
     },
     {
-        title: 'Zero Blunder Protocol — Garansi Ketepatan',
+        title: 'Zero Blunder Protocol: Garansi Ketepatan',
         description:
             'Detail brief, jadwal shift, dan penempatan pos kami cek berlapis. Jika ada personel yang tidak sesuai standar, penggantian dilakukan tanpa biaya tambahan hingga acara selesai.',
     },
@@ -231,39 +230,33 @@ const portfolios: PortfolioItem[] = [
     {
         image: '/images/portofolio/galeri-1.jpg',
         alt: 'Portofolio resepsi adat Jawa Mahes Ayu',
-        caption: 'Resepsi Adat Jawa — Gedung Sasana Kriya, Jakarta',
     },
     {
         image: '/images/portofolio/galeri-2.jpg',
         alt: 'Portofolio resepsi modern editorial Mahes Ayu',
-        caption: 'Resepsi Modern Editorial — The Glass House, Jakarta',
     },
     {
         image: '/images/portofolio/galeri-3.jpg',
         alt: 'Portofolio akad nikah intim Mahes Ayu',
-        caption: 'Akad Intim Ballroom — Hotel Mulia Senayan, Jakarta',
     },
     {
         image: '/images/portofolio/galeri-4.jpg',
         alt: 'Portofolio pernikahan adat Sunda Mahes Ayu',
-        caption: 'Pernikahan Adat Sunda — Puri Begawan, Bogor',
     },
     {
         image: '/images/portofolio/galeri-5.jpg',
         alt: 'Portofolio garden party Mahes Ayu',
-        caption: 'Garden Party Intimate — Boutique Chapel, Bogor',
     },
     {
         image: '/images/portofolio/galeri-6.jpg',
         alt: 'Portofolio tim Mahes Ayu di lokasi resepsi',
-        caption: 'Tim Teregistrasi MHSWR — On Time Guaranteed',
     },
 ];
 
 const faqs: FaqItem[] = [
     {
         question: 'Apakah seragam disediakan oleh Mahes Ayu?',
-        answer: 'Ya. Seluruh tim tampil dengan seragam busana adat semi-formal milik Mahes Ayu yang serasi dengan warna dan tema dekorasi acara Anda — tanpa biaya sewa tambahan.',
+        answer: 'Ya. Seluruh tim tampil dengan seragam busana adat semi-formal milik Mahes Ayu yang serasi dengan warna dan tema dekorasi acara Anda, tanpa biaya sewa tambahan.',
     },
     {
         question: 'Bagaimana sistem booking layanannya?',
@@ -298,13 +291,13 @@ const faqs: FaqItem[] = [
 const stats: StatItem[] = [
     {
         icon: Heart,
-        value: 1800,
+        value: 100,
         suffix: '+',
         label: 'Pasangan Terlayani sejak 2019',
     },
     {
         icon: Users,
-        value: 250,
+        value: 20,
         suffix: '+',
         label: 'Crew Profesional Terlatih',
     },
@@ -318,6 +311,6 @@ const stats: StatItem[] = [
         icon: MapPin,
         value: 4,
         suffix: '',
-        label: 'Kota Atelier Layanan',
+        label: 'Kota Utama Area Layanan',
     },
 ];
